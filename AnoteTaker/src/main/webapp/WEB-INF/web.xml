@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>AddNote</display-name>
+    <servlet-name>AddNote</servlet-name>
+    <servlet-class>com.servlets.AddNote</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddNote</servlet-name>
+    <url-pattern>/AddNote</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>deleteNote</display-name>
+    <servlet-name>deleteNote</servlet-name>
+    <servlet-class>com.servlets.deleteNote</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteNote</servlet-name>
+    <url-pattern>/deleteNote</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>update</display-name>
+    <servlet-name>update</servlet-name>
+    <servlet-class>com.servlets.update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+</web-app>
